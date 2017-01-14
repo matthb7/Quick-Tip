@@ -1,0 +1,63 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+html {
+	background-size: cover;
+}
+#title {
+	position: absolute;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #8000ff;
+	color: white;
+}
+#form {
+	position: absolute;
+    top: 15%;
+    left: 20%;
+	background-color: rgba(255, 255, 255, .5);
+	color: white;
+	text-align: center;
+	padding: 5%;
+	width: 50%;
+	margin: 0 auto;
+}
+#bill {
+	background-color: #8000ff;
+	padding: 20px;
+}
+#tip {
+	background-color: #8000ff;
+	padding: 20px;
+}
+#split {
+	background-color: #8000ff;
+	padding: 20px;
+}
+#submit {
+	position: relative;
+	top: 20px;
+	padding: 10px;
+	width: 50%;
+}
+input[type="submit"] {
+	color: #0080ff;
+	background-color: white;
+}
+input[type="submit"]:hover {
+	color: white;
+	background-color: #0080ff;
+}
+#result {
+	position: relative;
+	top: 30px;
+	border: 5px solid #8000ff;
+	background-color: white;
+	color: #ff0080;
+	padding: 30px;
+	width: 50%;
+	display: table;
+    margin: 0 auto; 
+}
